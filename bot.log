@@ -1,78 +1,17 @@
-2025-12-31 17:13:08,840 - INFO - Connection Successful! USDT Balance: 0.00000000
-2025-12-31 17:13:30,202 - INFO - Placing Market Order: BUY 0.001 BTCUSDT
-2025-12-31 17:13:30,867 - ERROR - Binance API Error: 400 - Order's notional must be no smaller than 100 (unless you choose reduce only).
-2025-12-31 17:13:47,189 - INFO - Placing Limit Order: BUY 0.001 BTCUSDT at 50000.0
-2025-12-31 17:13:47,744 - ERROR - Binance API Error: 400 - Order's notional must be no smaller than 100 (unless you choose reduce only).
-2025-12-31 17:19:34,562 - INFO - Placing OCO for BTCUSDT (Position: BUY). Close Side: SELL
-2025-12-31 17:19:35,494 - ERROR - Binance API Error (OCO): 400 - Time in Force (TIF) GTE can only be used with open positions. Please ensure that positions are available.
-2025-12-31 17:27:50,992 - INFO - Connection Successful! USDT Balance: 0.00000000
-2025-12-31 17:27:56,724 - INFO - Placing Market Order: BUY 0.002 BTCUSDT
-2025-12-31 17:27:58,053 - ERROR - Binance API Error: 400 - Margin is insufficient.
-2025-12-31 17:28:03,071 - INFO - Placing Limit Order: BUY 0.002 BTCUSDT at 50000.0
-2025-12-31 17:28:03,685 - ERROR - Binance API Error: 400 - Margin is insufficient.
-2025-12-31 17:28:08,499 - INFO - Placing OCO for BTCUSDT (Position: BUY). Close Side: SELL
-2025-12-31 17:28:09,523 - ERROR - Binance API Error (OCO): 400 - Time in Force (TIF) GTE can only be used with open positions. Please ensure that positions are available.
-2025-12-31 17:28:13,296 - INFO - Starting TWAP: BUY 0.01 BTCUSDT over 10s. 2 orders of ~0.005000 every 5s.
-2025-12-31 17:28:13,296 - INFO - TWAP Order 1/2
-2025-12-31 17:28:14,335 - INFO - Placing Market Order: BUY 0.005 BTCUSDT
-2025-12-31 17:28:15,154 - ERROR - Binance API Error: 400 - Margin is insufficient.
-2025-12-31 17:28:20,161 - INFO - TWAP Order 2/2
-2025-12-31 17:28:20,889 - INFO - Placing Market Order: BUY 0.005 BTCUSDT
-2025-12-31 17:28:21,455 - ERROR - Binance API Error: 400 - Margin is insufficient.
-2025-12-31 17:28:21,462 - INFO - TWAP Execution Completed
-2025-12-31 18:01:18,216 - INFO - Connection Successful! USDT Balance: 5000.00000000
-2025-12-31 18:02:29,946 - INFO - Placing Market Order: BUY 0.002 BTCUSDT
-2025-12-31 18:02:31,236 - INFO - Market Order Placed Successfully: ID 11286520935, Status: NEW
-2025-12-31 18:02:37,267 - INFO - Placing Limit Order: SELL 0.001 BTCUSDT at 95000.0
-2025-12-31 18:02:37,882 - ERROR - Binance API Error: 400 - Order's notional must be no smaller than 100 (unless you choose reduce only).
-2025-12-31 18:02:42,775 - INFO - Placing OCO for BTCUSDT (Position: BUY). Close Side: SELL
-2025-12-31 18:02:43,533 - ERROR - Error placing OCO: 'orderId'
-2025-12-31 18:02:47,831 - INFO - Starting TWAP: BUY 0.004 BTCUSDT over 10s. 2 orders of ~0.002000 every 5s.
-2025-12-31 18:02:47,834 - INFO - TWAP Order 1/2
-2025-12-31 18:02:48,429 - INFO - Placing Market Order: BUY 0.002 BTCUSDT
-2025-12-31 18:02:49,148 - INFO - Market Order Placed Successfully: ID 11286526846, Status: NEW
-2025-12-31 18:02:54,155 - INFO - TWAP Order 2/2
-2025-12-31 18:02:54,690 - INFO - Placing Market Order: BUY 0.002 BTCUSDT
-2025-12-31 18:02:55,360 - INFO - Market Order Placed Successfully: ID 11286528749, Status: NEW
-2025-12-31 18:02:55,366 - INFO - TWAP Execution Completed
-2025-12-31 18:03:34,713 - INFO - Placing Limit Order: SELL 0.002 BTCUSDT at 95000.0
-2025-12-31 18:03:35,225 - INFO - Limit Order Placed Successfully: ID 11286538511, Status: NEW
-2025-12-31 18:03:49,749 - INFO - Placing OCO for BTCUSDT (Position: BUY). Close Side: SELL
-2025-12-31 18:03:50,363 - ERROR - Binance API Error (OCO): 400 - An open stop or take profit order with GTE and closePosition in the direction is existing.
-2025-12-31 18:08:02,197 - INFO - Cancelling all open orders for BTCUSDT...
-2025-12-31 18:08:02,730 - INFO - All open orders cancelled successfully.
-2025-12-31 18:08:06,055 - INFO - Placing OCO for BTCUSDT (Position: BUY). Close Side: SELL
-2025-12-31 18:08:06,665 - ERROR - Binance API Error (OCO): 400 - An open stop or take profit order with GTE and closePosition in the direction is existing.
-2025-12-31 18:08:33,636 - INFO - Cancelling all open orders for BTCUSDT...
-2025-12-31 18:08:33,989 - INFO - All open orders cancelled successfully.
-2025-12-31 18:08:36,917 - INFO - Placing OCO for BTCUSDT (Position: BUY). Close Side: SELL
-2025-12-31 18:08:37,530 - ERROR - Error placing OCO: 'orderId'
-2025-12-31 18:09:22,066 - INFO - Cancelling all open orders for BTCUSDT...
-2025-12-31 18:09:22,681 - INFO - All open orders cancelled successfully.
-2025-12-31 18:09:26,248 - INFO - Placing OCO for BTCUSDT (Position: BUY). Close Side: SELL
-2025-12-31 18:09:26,875 - INFO - Stop Loss Response: {'algoId': 1000000003285315, 'clientAlgoId': 'x-Cb7ytekJdd2ee17ca08b0ddcd3ef92', 'algoType': 'CONDITIONAL', 'orderType': 'STOP_MARKET', 'symbol': 'BTCUSDT', 'side': 'SELL', 'positionSide': 'BOTH', 'timeInForce': 'GTC', 'quantity': '0.003', 'algoStatus': 'NEW', 'triggerPrice': '40000.00', 'price': '0.00', 'icebergQuantity': None, 'selfTradePreventionMode': 'EXPIRE_MAKER', 'workingType': 'CONTRACT_PRICE', 'priceMatch': 'NONE', 'closePosition': False, 'priceProtect': False, 'reduceOnly': True, 'createTime': 1767184766941, 'updateTime': 1767184766941, 'triggerTime': 0, 'goodTillDate': 0}
-2025-12-31 18:09:26,876 - INFO - Stop Loss Placed: N/A at 40000.0
-2025-12-31 18:09:27,312 - ERROR - Binance API Error (OCO): 400 - Order would immediately trigger.
-2025-12-31 18:09:57,173 - INFO - Cancelling all open orders for BTCUSDT...
-2025-12-31 18:09:57,694 - INFO - All open orders cancelled successfully.
-2025-12-31 18:10:00,890 - INFO - Placing OCO for BTCUSDT (Position: BUY). Close Side: SELL
-2025-12-31 18:10:01,329 - INFO - Stop Loss Placed: 1000000003285371 at 40000.0
-2025-12-31 18:10:01,508 - INFO - Take Profit Placed: 1000000003285372 at 95000.0
-2025-12-31 18:16:38,813 - INFO - Placing Market Order: BUY 0.1 BTCUSDT
-2025-12-31 18:16:39,434 - INFO - Market Order Placed Successfully: ID 11286759570, Status: NEW
-2025-12-31 18:16:43,286 - INFO - Connection Successful! USDT Balance: 4996.23418281
-2025-12-31 18:17:17,023 - INFO - Connection Successful!
-2025-12-31 18:17:17,024 - INFO - Wallet Balance: 4996.23418281
-2025-12-31 18:17:17,025 - INFO - Available Balance: 4524.83592281
-2025-12-31 18:17:29,076 - INFO - Placing Market Order: BUY 0.12 BTCUSDT
-2025-12-31 18:17:29,604 - INFO - Market Order Placed Successfully: ID 11286773699, Status: NEW
-2025-12-31 18:17:34,409 - INFO - Connection Successful!
-2025-12-31 18:17:34,409 - INFO - Wallet Balance: 4991.97225321
-2025-12-31 18:17:34,409 - INFO - Available Balance: 3991.89426320
-2025-12-31 18:22:23,194 - ERROR - Validation Error: Invalid symbol format: $
-2025-12-31 18:23:48,949 - INFO - Placing Market Order: BUY 1.0 BTCUSDT
-2025-12-31 18:23:49,545 - ERROR - Binance API Error: 400 - Margin is insufficient.
-2025-12-31 18:25:01,368 - INFO - Placing Market Order: BUY 0.001 BTCUSDT
-2025-12-31 18:25:02,080 - ERROR - Binance API Error: 400 - Order's notional must be no smaller than 100 (unless you choose reduce only).
-2025-12-31 18:26:09,979 - INFO - Placing Market Order: BUY 0.002 BTCUSDT
-2025-12-31 18:26:10,704 - INFO - Market Order Placed Successfully: ID 11286917539, Status: NEW
+2026-01-27 09:44:07,219 - INFO - Placing Market Order: BUY 0.003 BTCUSDT
+2026-01-27 09:44:07,691 - INFO - Market Order Placed Successfully: ID 11994854450, Status: NEW
+2026-01-27 09:44:48,839 - INFO - Placing Market Order: BUY 0.003 BTCUSDT
+2026-01-27 09:44:49,356 - INFO - Market Order Placed Successfully: ID 11994861758, Status: NEW
+2026-01-27 09:44:58,202 - INFO - Placing Limit Order: BUY 0.003 BTCUSDT at 50000.0
+2026-01-27 09:44:59,116 - INFO - Limit Order Placed Successfully: ID 11994863586, Status: NEW
+2026-01-27 09:45:08,229 - INFO - Placing OCO for BTCUSDT (Position: BUY). Close Side: SELL
+2026-01-27 09:45:08,945 - INFO - Stop Loss Placed: 1000000007544801 at 85000.0
+2026-01-27 09:45:09,253 - INFO - Take Profit Placed: 1000000007544803 at 95000.0
+2026-01-27 09:45:21,169 - INFO - Starting TWAP: BUY 0.006 BTCUSDT over 60s. 2 orders of ~0.003000 every 30s.
+2026-01-27 09:45:21,170 - INFO - TWAP Order 1/2
+2026-01-27 09:45:22,055 - INFO - Placing Market Order: BUY 0.003 BTCUSDT
+2026-01-27 09:45:22,978 - INFO - Market Order Placed Successfully: ID 11994869970, Status: NEW
+2026-01-27 09:45:52,984 - INFO - TWAP Order 2/2
+2026-01-27 09:45:53,554 - INFO - Placing Market Order: BUY 0.003 BTCUSDT
+2026-01-27 09:45:54,207 - INFO - Market Order Placed Successfully: ID 11994877367, Status: NEW
+2026-01-27 09:45:54,212 - INFO - TWAP Execution Completed

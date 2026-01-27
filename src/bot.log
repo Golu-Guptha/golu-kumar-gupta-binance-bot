@@ -1,0 +1,6 @@
+2026-01-27 09:29:24,630 - INFO - Placing Market Order: BUY 0.002 BTCUSDT
+2026-01-27 09:29:25,572 - INFO - Market Order Placed Successfully: ID 11994651403, Status: NEW
+2026-01-27 09:29:53,607 - INFO - Placing Limit Order: BUY 0.001 BTCUSDT at 50000.0
+2026-01-27 09:29:54,528 - ERROR - Binance API Error: 400 - Order's notional must be no smaller than 100 (unless you choose reduce only).
+2026-01-27 09:30:29,649 - INFO - Placing Limit Order: BUY 0.001 BTCUSDT at 99.0
+2026-01-27 09:30:30,375 - ERROR - Binance API Error: 400 - Price less than min price.

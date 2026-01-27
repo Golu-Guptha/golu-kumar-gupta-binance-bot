@@ -1,6 +1,6 @@
 # Binance Futures Order Bot - Project Report
 
-**Author**: [Golu Kumar Gupta]
+**Author**: [Your Name]
 **Date**: 2024-12-31
 
 ## 1. Project Overview
