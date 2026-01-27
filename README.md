@@ -29,11 +29,6 @@ python src/main.py market BTCUSDT BUY 0.001
 python src/main.py limit BTCUSDT BUY 0.001 50000
 ```
 
-### Limit Order
-```bash
-python src/main.py limit BTCUSDT BUY 0.001 50000
-```
-
 ### OCO Order (Advanced)
 Places a Stop Loss and Take Profit for an existing position.
 ```bash
@@ -48,7 +43,7 @@ python src/main.py twap BTCUSDT BUY 0.01 60 10
 # Format: twap [SYMBOL] [SIDE] [TOTAL_QTY] [DURATION_SEC] [INTERVAL_SEC]
 ```
 
-### check balance
+### Check Balance
 ```bash
 python src/main.py balance
 ```
